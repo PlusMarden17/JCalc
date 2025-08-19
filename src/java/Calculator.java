@@ -10,10 +10,11 @@ public class Calculator implements ActionListener {
     double firstOperand = 0;
     String operator = "";
 
-    public Calculator() {
+    public Calc() {
         JFrame frame = new JFrame("JCalc 0.1.2");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 400);
+        frame.setResizable(false);
         frame.setLayout(new BorderLayout());
 
         JPanel displayPanel = new JPanel(new BorderLayout());
@@ -124,6 +125,7 @@ public class Calculator implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Calculator();
+        new Calc();
     }
+
 }
