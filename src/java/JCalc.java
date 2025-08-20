@@ -3,14 +3,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Calculator implements ActionListener {
+public class JCalc implements ActionListener {
 
     JTextField display;
     String currentInput = "";
     double firstOperand = 0;
     String operator = "";
 
-    public Calc() {
+    public JCalc() {
         JFrame frame = new JFrame("JCalc 0.1.2");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 400);
@@ -125,7 +125,8 @@ public class Calculator implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Calc();
+        new JCalc();
     }
 
 }
+
