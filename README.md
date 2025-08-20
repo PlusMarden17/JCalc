@@ -14,5 +14,5 @@ cd JCalc
 ```
 And now you can run it:
 ```bash
-java JCalc
+java Calculator
 ```
