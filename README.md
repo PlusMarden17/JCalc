@@ -2,8 +2,7 @@
 Minimal functionality Java calculator
 
 
-A minimal version of the Java calculator created by me while learning this programming language
-
+A minimal version of the Java calculator created by me while learning Java
 
 # How to install?
 Make sure you have JDK!
