@@ -1,3 +1,5 @@
+package io.coconut.jcalc;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -129,4 +131,5 @@ public class JCalc implements ActionListener {
     }
 
 }
+
 
