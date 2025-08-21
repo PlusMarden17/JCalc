@@ -10,9 +10,10 @@ Make sure you have JDK!
 To install JCalc you need to paste this commands into terminal:
 ```bash
 git clone https://github.com/PlusMarden17/JCalc.git
-cd JCalc
 ```
 And now you can run it:
 ```bash
-java Calculator
+cd JCalc/src/java
+javac JCalc.java
+java JCalc
 ```
